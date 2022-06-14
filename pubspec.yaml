@@ -1,0 +1,71 @@
+name: tra_s4c
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 13.0.2+16
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  #FIREBASE
+  firebase_messaging: ^10.0.7
+  firebase_core: ^1.7.0
+
+  #IMAGE
+  cupertino_icons: ^1.0.2
+  jitsi_meet: ^4.0.0
+  flutter_launcher_icons:
+  network_to_file_image: ^3.1.0
+  qr_code_scanner: ^0.6.1
+
+  #BEACONS
+  flutter_beacon: ^0.5.1
+
+  #SIGNAL-R
+  signalr_core: ^1.1.1
+
+  #HTTP
+  http: ^0.13.3
+  sqflite: ^2.0.0+3
+
+  #STATE
+  provider: ^5.0.0
+  shared_preferences: ^2.0.6
+  permission_handler: ^8.3.0
+  path_provider: ^2.0.9
+  ffi: ^1.1.2
+
+  #UTILS
+  vibration: ^1.7.4-nullsafety.0
+  fluttertoast: ^8.0.8
+  equatable: ^2.0.3
+  progress_state_button: ^1.0.4
+  flutter_app_restart: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/s4care_iso.png"
+  adaptive_icon_background: "assets/image/s4care_iso.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+    - i18n/es.json
+    - i18n/en.json
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+          style: normal

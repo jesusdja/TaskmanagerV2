@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "6319210718",
+    "project_id": "soft4care-7faab",
+    "storage_bucket": "soft4care-7faab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6319210718:android:240a5225598ec8e7a6c24f",
+        "android_client_info": {
+          "package_name": "com.app.tra_s4c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6319210718-1c43gedp1bokr17nkhbbon4cgnkf65f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.tra_s4c",
+            "certificate_hash": "8950e771df30d8a01461abc392b32dc8e83aaab9"
+          }
+        },
+        {
+          "client_id": "6319210718-j0nbqmen1jnvlguihaos5kmvuumut44u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcaWPeokczKmGRKvGbtSHF0pfnkDDTiX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6319210718-j0nbqmen1jnvlguihaos5kmvuumut44u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
