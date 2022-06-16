@@ -93,8 +93,8 @@ class _TaskPatientHabScheduledState extends State<TaskPatientHabScheduled>{
 
     if(mounted){
       setState(() {});
-      //await loadDataAll1();
-      //await loadDataAll2();
+      await loadDataAll1();
+      await loadDataAll2();
       await loadDataAll3();
     }
   }
